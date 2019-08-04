@@ -32,7 +32,12 @@ Pagination related cases are also not covered.
 
 Everything is configured in maven pom.xml. I used, maven-compiler-plugin for compiling code and maven-surefire-plugin for running the tests.
 I defined a sample testng.xml file which was configured in pom.xml which would run by surefire plugin.
-So, We just need to run the following command to compile and run. Copy the project into your local machine say..... C:\ServiceNowWorkSpace\ServiceNowGurukula then open command prompt and switch to this path. C:\ServiceNowWorkSpace\ServiceNowGurukula>mvn clean C:\ServiceNowWorkSpace\ServiceNowGurukula>mvn install C:\ServiceNowWorkSpace\ServiceNowGurukula>mvn test
+So, We just need to run the following command to compile and run. 
+Copy the project into your local machine say..... 
+C:\ServiceNowWorkSpace\ServiceNowGurukula then open command prompt and switch to this path. 
+C:\ServiceNowWorkSpace\ServiceNowGurukula>mvn clean 
+C:\ServiceNowWorkSpace\ServiceNowGurukula>mvn install 
+C:\ServiceNowWorkSpace\ServiceNowGurukula>mvn test
 Cucumber report will generate in the following path "target/cucumber-reports/advanced-reports"
 
 #Ways to find out failure reasons:
