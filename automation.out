@@ -1,0 +1,33 @@
+2019-08-05 00:08:591 INFO  WaitHelper:22 - waiting for element visibilityOf..
+2019-08-05 00:08:397 INFO  WaitHelper:25 - element is visible..
+2019-08-05 00:08:672 INFO  WaitHelper:22 - waiting for element visibilityOf..
+2019-08-05 00:08:992 INFO  WaitHelper:25 - element is visible..
+2019-08-05 00:08:98 INFO  WaitHelper:22 - waiting for element visibilityOf..
+2019-08-05 00:08:753 INFO  WaitHelper:25 - element is visible..
+2019-08-05 00:08:578 INFO  LoginPage:135 - Branch is not created.
+2019-08-05 00:08:580 INFO  ServiceHooks:42 - TC005 - Verify Create new branch is pass
+2019-08-05 00:08:350 INFO  ServiceHooks:42 - TC001- Verify Login  with valid credential is pass
+2019-08-05 00:08:595 INFO  LoginPage:57 - Verify Login fail when invalid username/password
+2019-08-05 00:08:597 INFO  ServiceHooks:42 - TC002- Verify login Fail with invalid credential is pass
+2019-08-05 00:08:91 INFO  LoginPage:68 - Reset your password page is displayed.
+2019-08-05 00:08:93 INFO  ServiceHooks:42 - TC003- Verify click on Did you forget your password? link then it navigate to Reset Password page is pass
+2019-08-05 00:08:242 ERROR LoginPage:86 - Element not found
+2019-08-05 00:08:517 ERROR LoginPage:56 - Element not foundorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[text()='Registration' and @translate='register.title']"}
+  (Session info: chrome=75.0.3770.142)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WPU8L0023421', ip: '192.168.1.106', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\KM15LV\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49430}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 487f343869fed5567ec0759d84da389f
+*** Element info: {Using=xpath, value=//h1[text()='Registration' and @translate='register.title']}
+2019-08-05 00:08:523 INFO  ServiceHooks:33 - TC004- Verify click on Register a new account link, it navigate to Registration page is Failed
+2019-08-05 00:08:775 INFO  WaitHelper:22 - waiting for element visibilityOf..
+2019-08-05 00:08:892 INFO  WaitHelper:25 - element is visible..
+2019-08-05 00:08:54 INFO  WaitHelper:22 - waiting for element visibilityOf..
+2019-08-05 00:08:95 INFO  WaitHelper:25 - element is visible..
+2019-08-05 00:08:476 INFO  WaitHelper:22 - waiting for element visibilityOf..
+2019-08-05 00:08:532 INFO  WaitHelper:25 - element is visible..
+2019-08-05 00:08:659 INFO  WaitHelper:22 - waiting for element visibilityOf..
+2019-08-05 00:08:700 INFO  WaitHelper:25 - element is visible..
+2019-08-05 00:08:41 INFO  ServiceHooks:42 - Verify Registeration with valid input data and is successful is pass

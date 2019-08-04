@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="96.956" tests="3" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="user.country.format" value="NL"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\SNOW Test\snowTest"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\SNOW Test\snowTest"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\KM15LV\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\SNOW Test\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6759127629944695379.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_221/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_221/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_221/bin/../jre/lib/amd64;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Gemalto\Classic Client\BIN;C:\Program Files (x86)\Gemalto\Classic Client\BIN;C:\Program Files (x86)\Gemalto\IDGo 800 PKCS#11\;C:\Program Files (x86)\Enterprise Vault\EVClient\;C:\Program Files (x86)\Plantronics\PlantronicsURE\;C:\Program Files\Java\jdk1.8.0_221\bin;%MAVEN_HOME%\bin;C:\Program Files\PuTTY\;C:\Program Files\PuTTY;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Java\jre1.8.0_221\bin;C:\Program Files\nodejs\; C:\Program Files (x86)\Cntlm;C:\Users\KM15LV\AppData\Roaming\npm;C:\Users\KM15LV\AppData\Local\Programs\Microsoft VS Code\bin;C:\WINDOWS\system32;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\KM15LV"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="km15lv"/>
+    <property name="java.class.path" value="C:\Users\KM15LV\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.12.0.20190529-1915\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_221\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="user.language.format" value="nl"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\SNOW Test\snowTest\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="feature" classname="com.snowTest.testRunner.TestRunner" time="20.934"/>
+  <testcase name="feature" classname="com.snowTest.testRunner.TestRunner" time="46.346"/>
+  <testcase name="feature" classname="com.snowTest.testRunner.TestRunner" time="25.841">
+    <failure message="java.lang.AssertionError: expected [true] but found [false]" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: java.lang.AssertionError: expected [true] but found [false]
+	at com.snowTest.testRunner.TestRunner.feature(TestRunner.java:27)
+Caused by: java.lang.AssertionError: expected [true] but found [false]
+</failure>
+    <system-out><![CDATA[@RegisterNewAccount
+Feature: As a new user I want to register a new Account in Gurukula
+
+  Background: User navigates to Application URL                # registerNewAccount.feature:4
+    Given I am on the startup page URL "http://127.0.0.1:8080" # WelcomePageStepDefinition.i_am_on_the_Login_page_URL(String)
+    Then I should see Welcome Page                             # LoginPageStepDefinition.i_should_see_Log_In_Page()
+2019-08-05 00:08:242 ERROR LoginPage :86 - Element not found
+2019-08-05 00:08:517 ERROR LoginPage :56 - Element not foundorg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[text()='Registration' and @translate='register.title']"}
+  (Session info: chrome=75.0.3770.142)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WPU8L0023421', ip: '192.168.1.106', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\KM15LV\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49430}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 487f343869fed5567ec0759d84da389f
+*** Element info: {Using=xpath, value=//h1[text()='Registration' and @translate='register.title']}
+2019-08-05 00:08:523 INFO  ServiceHooks :33 - TC004- Verify click on Register a new account link, it navigate to Registration page is Failed
+
+  @Sanity
+  Scenario: TC004- Verify click on Register a new account link, it navigate to Registration page # registerNewAccount.feature:9
+    When I click on Register a new account                                                       # LoginPageStepDefinition.i_click_on_Register_a_new_account()
+    Then I navigate to Registration page "Registration"                                          # RegisterPageStepDefinitions.i_navigate_to_Registration_page(String)
+      java.lang.AssertionError: expected [true] but found [false]
+      	at org.testng.Assert.fail(Assert.java:94)
+      	at org.testng.Assert.failNotEquals(Assert.java:513)
+      	at org.testng.Assert.assertTrue(Assert.java:42)
+      	at org.testng.Assert.assertTrue(Assert.java:52)
+      	at com.snowTest.stepDefinitions.RegisterPageStepDefinitions.i_navigate_to_Registration_page(RegisterPageStepDefinitions.java:32)
+      	at ?.Then I navigate to Registration page "Registration"(registerNewAccount.feature:11)
+
+
+  Background: User navigates to Application URL                # registerNewAccount.feature:4
+    Given I am on the startup page URL "http://127.0.0.1:8080" # WelcomePageStepDefinition.i_am_on_the_Login_page_URL(String)
+    Then I should see Welcome Page                             # LoginPageStepDefinition.i_should_see_Log_In_Page()
+2019-08-05 00:08:775 INFO  WaitHelper :22 - waiting for element visibilityOf..
+2019-08-05 00:08:892 INFO  WaitHelper :25 - element is visible..
+2019-08-05 00:08:54 INFO  WaitHelper :22 - waiting for element visibilityOf..
+2019-08-05 00:08:95 INFO  WaitHelper :25 - element is visible..
+2019-08-05 00:08:476 INFO  WaitHelper :22 - waiting for element visibilityOf..
+2019-08-05 00:08:532 INFO  WaitHelper :25 - element is visible..
+2019-08-05 00:08:659 INFO  WaitHelper :22 - waiting for element visibilityOf..
+2019-08-05 00:08:700 INFO  WaitHelper :25 - element is visible..
+2019-08-05 00:08:41 INFO  ServiceHooks :42 - Verify Registeration with valid input data and is successful is pass
+
+  @Sanity
+  Scenario: Verify Registeration with valid input data and is successful # registerNewAccount.feature:14
+    When I click on Register a new account                               # LoginPageStepDefinition.i_click_on_Register_a_new_account()
+    Then I navigate to Registration page "Registration"                  # RegisterPageStepDefinitions.i_navigate_to_Registration_page(String)
+    When I enter a login "TestLogin"                                     # RegisterPageStepDefinitions.i_enter_a_login(String)
+    And I enter an email "testcontina@gmail.com"                         # RegisterPageStepDefinitions.i_enter_an_email(String)
+    And I enter password "qwerty123!"                                    # RegisterPageStepDefinitions.i_enter_password(String)
+    And I enter confirm password "qwerty123!"                            # RegisterPageStepDefinitions.i_enter_confirm_password(String)
+    And I click on Register                                              # RegisterPageStepDefinitions.i_click_on_Register()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}) on port 19284
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+aug 05, 2019 12:18:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}) on port 8070
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+aug 05, 2019 12:18:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
